@@ -1,0 +1,98 @@
+body {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: rgba(26, 21, 21, 0.09);
+    
+}
+
+.top {
+    background-color: rgba(29, 29, 29, 1);
+    color: white;
+    height: 150px;
+    position: relative;
+    z-index: -1;
+    
+    
+
+}
+.top img {
+    width: 250px;
+    margin-top: -115px;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    
+}
+
+.top p {
+    font-size: x-small;
+    text-align: justify;
+    padding-inline: 40px 300px;
+}
+.top h3 {
+    margin-left: 40px;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+button {
+    margin: 0px 40px;
+    font-size: 0.5em;
+    font-weight: bold;
+    border: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
+    background-color: inherit;
+}
+.about-me {
+    height: 450px;
+    background: fixed;
+    background-color: rgba(26, 21, 21, 0.16);
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+.about-me .about  {
+   padding-top: 100px; 
+   font-size: 15px;
+   font-family: "Montserrat", sans-serif;
+   
+}
+.about-me .about a {
+    border: 4px solid black;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 0.95em;
+    color: black;
+}
+.about-me p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-inline: 250px 250px;
+    font-size: 0.7em;
+
+}
+.about-me a {
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    padding: 2px 15px;
+    font-weight: 700;
+    /* letter-spacing: 5px; */
+    font-size: 0.5em;
+    color: black;
+
+}
+.separator img {
+    width: 80px;
+    margin-top: 50px;
+}
+
+a:hover {
+    color: red;
+}
